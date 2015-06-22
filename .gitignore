@@ -1,0 +1,12 @@
+DotSpatial.Plugins.Taudem/obj/
+DotSpatial.Tools.Tests/bin/
+DotSpatial.Plugins.Taudem/bin/
+DotSpatial.Tools.Tests/obj/
+DotSpatial.Tools/obj/
+DotSpatial.Analysis.Tests/bin/
+DotSpatial.Compatibility/.nuget/
+DotSpatial.Analysis.Tests/obj/
+DotSpatial.Compatibility/obj/
+*.nuspec
+bin/
+DotSpatial.Analysis/obj/
