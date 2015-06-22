@@ -42,9 +42,78 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DotSpatial.Analysis">
+      <HintPath>..\..\Boreray\packages\DotSpatial.Analysis.1.7\lib\net40-Client\DotSpatial.Analysis.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Controls">
+      <HintPath>..\..\Boreray\packages\DotSpatial.Controls.1.7\lib\net40-Client\DotSpatial.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Data, Version=1.7.0.0, Culture=neutral, PublicKeyToken=c29dbf30e059ca9d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Boreray\packages\DotSpatial.Data.1.7\lib\net40-Client\DotSpatial.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Data.Forms, Version=1.7.0.0, Culture=neutral, PublicKeyToken=53ab5a198378d4c1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Boreray\packages\DotSpatial.Data.Forms.1.7\lib\net40-Client\DotSpatial.Data.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Data.Rasters.GdalExtension, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a8023d70ef7a76f8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\DotSpatial.Data.Rasters.GdalExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Extensions, Version=1.7.0.0, Culture=neutral, PublicKeyToken=4d9e49339a7d240c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Boreray\packages\DotSpatial.Extensions.1.7\lib\net40-Client\DotSpatial.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Modeling.Forms, Version=1.7.0.0, Culture=neutral, PublicKeyToken=712bef29a31a9354, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Boreray\packages\DotSpatial.Modeling.Forms.1.7\lib\net40-Client\DotSpatial.Modeling.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Mono, Version=1.7.0.0, Culture=neutral, PublicKeyToken=425ba4de41127026, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Boreray\packages\DotSpatial.Mono.1.7\lib\net40-Client\DotSpatial.Mono.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections, Version=1.7.0.0, Culture=neutral, PublicKeyToken=272632bddd08a38b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Boreray\packages\DotSpatial.Projections.1.7\lib\net40-Client\DotSpatial.Projections.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections.Forms, Version=1.7.0.0, Culture=neutral, PublicKeyToken=52099474f11b7ff0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Boreray\packages\DotSpatial.Projections.Forms.1.7\lib\net40-Client\DotSpatial.Projections.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Serialization, Version=1.7.0.0, Culture=neutral, PublicKeyToken=441f200f827611e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Boreray\packages\DotSpatial.Serialization.1.7\lib\net40-Client\DotSpatial.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Symbology, Version=1.7.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Boreray\packages\DotSpatial.Symbology.1.7\lib\net40-Client\DotSpatial.Symbology.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Symbology.Forms, Version=1.7.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Boreray\packages\DotSpatial.Symbology.Forms.1.7\lib\net40-Client\DotSpatial.Symbology.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Topology, Version=1.7.0.0, Culture=neutral, PublicKeyToken=a66b5e9434ca3671, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Boreray\packages\DotSpatial.Topology.1.7\lib\net40-Client\DotSpatial.Topology.dll</HintPath>
+    </Reference>
+    <Reference Include="gdalconst_csharp">
+      <HintPath>..\Libs\gdalconst_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="gdal_csharp, Version=1.0.5121.13209, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\gdal_csharp.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\documents\visual studio 2013\Projects\DotSpatial-Full\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="ogr_csharp, Version=1.0.5121.13209, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\ogr_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="osr_csharp, Version=1.0.5121.13208, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\osr_csharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -66,33 +135,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DotSpatial.Data.Rasters.GdalExtension\DotSpatial.Data.Rasters.GdalExtension.csproj">
-      <Project>{51c6e16e-920e-4d36-b41e-d48abef837e7}</Project>
-      <Name>DotSpatial.Data.Rasters.GdalExtension</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DotSpatial.Data\DotSpatial.Data.csproj">
-      <Project>{c1018695-3401-47a9-b195-abd3a20c2489}</Project>
-      <Name>DotSpatial.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DotSpatial.Extensions\DotSpatial.Extensions.csproj">
-      <Project>{9108b04d-a3de-4981-b66f-496078d462fe}</Project>
-      <Name>DotSpatial.Extensions</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DotSpatial.Modeling.Forms\DotSpatial.Modeling.Forms.csproj">
-      <Project>{7ed7b00d-56ee-47cf-aaa5-34a09e40a566}</Project>
-      <Name>DotSpatial.Modeling.Forms</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DotSpatial.Tests.Common\DotSpatial.Tests.Common.csproj">
+    <ProjectReference Include="..\..\Boreray\DotSpatial.Tests.Common\DotSpatial.Tests.Common.csproj">
       <Project>{95114A54-769F-4A90-A346-C2CF85523AAD}</Project>
       <Name>DotSpatial.Tests.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\DotSpatial.Tools\DotSpatial.Tools.csproj">
       <Project>{878a9c2c-21ac-4e63-9819-715b66b63cf5}</Project>
       <Name>DotSpatial.Tools</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DotSpatial.Topology\DotSpatial.Topology.csproj">
-      <Project>{a8079861-c636-4ece-99c1-ad313276787b}</Project>
-      <Name>DotSpatial.Topology</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
